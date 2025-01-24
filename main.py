@@ -43,9 +43,9 @@ bot = Client(
     bot_token=BOT_TOKEN
 )
 
-API_ID    = os.environ.get("API_ID", "21567814")
-API_HASH  = os.environ.get("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7662813243:AAEA3yIU_BZTCHR-lEXRFBelPfDdubYuRFA") 
+API_ID    = os.environ.get("API_ID", "29937683")
+API_HASH  = os.environ.get("API_HASH", "5f6d4ca9ffadd037db94446dc7c0d6fa")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "7927035300:AAEWD0wWg-Ivyw7aqEmYeJKiMGGgEV_JMkY") 
 
 # Define aiohttp routes
 routes = web.RouteTableDef()
@@ -91,7 +91,7 @@ import random
 keyboard = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Strangerboy27_bot_strangerboy"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Thor_700"),
             InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+j1u5Ze6BlSE0ODM1"),
         ],
         [
@@ -104,7 +104,7 @@ keyboard = InlineKeyboardMarkup(
 Busy = InlineKeyboardMarkup(
     [
         [
-            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Strangerboy27_bot_strangerboy"),
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Thor_700"),
             InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+j1u5Ze6BlSE0ODM1"),
         ],
         [
@@ -757,7 +757,7 @@ SUBSCRIPTION_FILE = "subscription_data.txt"
 CHANNELS_FILE = "channels_data.json"
 
 # Admin ID
-ADMIN_ID = 6126688051
+ADMIN_ID = 6433733086
 
 # Function to read subscription data
 def read_subscription_data():
@@ -869,7 +869,7 @@ async def remove_user(client, message: Message):
     except ValueError:
         await message.reply_text("Invalid command format. Use: /removeuser <user_id>")
 
-YOUR_ADMIN_ID = 6126688051
+YOUR_ADMIN_ID = 6433733086
 
 # Helper function to check admin privilege
 def is_admin(user_id):
@@ -976,7 +976,7 @@ async def id_command(client, message: Message):
         f"`/add_channel {chat_id}`"
     )
 
-YOUR_ADMIN_ID = 6126688051
+YOUR_ADMIN_ID = 6433733086
 
 # Helper function to check admin privilege
 def is_admin(user_id):
